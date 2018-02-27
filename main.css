@@ -139,7 +139,6 @@ video{
 }
 
 .navbar li {
-  padding-left: 60px;
   display: inline;
   flex-basis:20%;
   background-color: silver;
