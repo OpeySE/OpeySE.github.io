@@ -90,6 +90,14 @@ img{
   height: auto;
 }
 
+video{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: auto;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -111,18 +119,29 @@ img{
   color: black;
   cursor: pointer;
 }
+/*here */
+.navbar {
+  background-color: silver;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
 
-footer ul {
+.navbar h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.navbar ul {
   display: flex;
   justify-content:space-between;
   flex-wrap:wrap;
-  background-color: #F5F5F5;
+  background-color: silver;
 }
 
-footer li {
+.navbar li {
   display: inline;
   flex-basis:20%;
-  background-color: #F5F5F5;
+  background-color: silver;
   text-align: center;
   text-decoration: none;
   font-family:sans-serif;
@@ -130,19 +149,19 @@ footer li {
   color: black;
 }
 
-footer li a:link {
+.navbar li a:link {
   color: black;
   text-decoration: none;
 }
 
-footer li a:visited {
+.navbar li a:visited {
   color: black;
   text-decoration: none;
 }
 
 .log {
   display: inline-block;
-  width: 50px;
+  width: 150px;
   height: 25px;
   margin: 2px;
   border: 1px solid black;
@@ -156,7 +175,7 @@ footer li a:visited {
 .currentLog {
   flex-basis:25%;
   display: inline-block;
-  width: 50px;
+  width: 150px;
   height: 25px;
   margin: 2px;
   border: 1px solid black;
