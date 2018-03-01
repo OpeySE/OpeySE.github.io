@@ -191,7 +191,7 @@ video{
 
 @media screen and (max-width: 500px) {
   .navbar ul {
-    padding-left: 5;
+    padding-left: 4;
     display: flex;
     justify-content:center;
     flex-wrap:wrap;
