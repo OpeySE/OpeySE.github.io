@@ -1,9 +1,10 @@
+
 body {
-  background: #f4f6f7;
+  background: darkgrey;
 }
 
 nav {
-  background-color: #b3b6b7;
+  background-color: black;
 }
 
 nav header h1 {
@@ -12,6 +13,7 @@ nav header h1 {
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
+  color:white;
 }
 
 nav header h4 {
@@ -19,34 +21,35 @@ nav header h4 {
   font-size: 15px;
   text-align: center;
   margin-top: 0px;
+  color:white;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #d0d3d4;
+  background-color: #808080;
   padding: 5px 0 5px 0;
 }
 
 nav li {
   display: inline;
   flex-basis: 30%;
-  background-color: lightgrey;
+  background-color: #808080;
   text-align: center;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 14px;
-  color: black;
+  color: white;
 }
 
 nav li a:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 nav li a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
