@@ -56,22 +56,6 @@ nav li a:visited {
   background-color: #b3b6b7;
 }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-.dropdown-content a:hover {
-  background-color: #E8E8E8;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 section {
   padding: 0 4px 0 4px
 }
@@ -224,6 +208,29 @@ footer h3{
   font-size: 18px;
 }
 
+/*Laptop screen*/
+@media screen and (min-width: 500px) {
+.dropdown-content {display: none;
+  position: inherit;
+  background-color: #b3b6b7;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #E8E8E8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+}
 @media screen and (max-width: 500px) {
   .navbar ul {
     padding-right: 4px;
